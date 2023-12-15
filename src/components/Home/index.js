@@ -3,7 +3,6 @@ import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
 import Loader from 'react-loaders'
 
 const Home = () => {
@@ -63,7 +62,6 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
       </div>
       <Loader type="pacman" />
     </>
